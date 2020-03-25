@@ -33,6 +33,8 @@ spec:
 {{- range $pkey, $pval := .Values.env }}
         - name: {{ $pkey }}
           value: {{ quote $pval }}
+        - name: DB
+          value:  {{ template "fullname" . }}-db
 {{- end }}
         envFrom:
 {{ toYaml .Values.envFrom | indent 10 }}
