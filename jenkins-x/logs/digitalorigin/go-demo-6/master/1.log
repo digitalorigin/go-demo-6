@@ -1,0 +1,38 @@
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-r5n2n[0m
+{"level":"warn","ts":1585157144.229591,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1585157144.2306452,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-9g98j[0m
+{"level":"warn","ts":1585157145.2406375,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1585157145.2432396,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+Unable to retrieve container logs for docker://b72513f15cfd0dc55cf82c63214f8cb108a44bc0c4c6899be8b0f03d7895e483
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-digitalorigin-go-demo-6-master-tdjt9-wgfzl[0m
+Unable to retrieve container logs for docker://aee2a24f8f35e04eb690dee9045d1054ce3787b9c5ffdd3e87c8bc903ea4adba
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Unable to retrieve container logs for docker://7732469e31b9544b162b2bc032805a5995e7867cdda716a73195df6118ff9d6b
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Unable to retrieve container logs for docker://3fd85b185c6e5f875029c8a2f087b62fc604f75d85d7f05d1497fe1911f2de15
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-make-build[0m
+Unable to retrieve container logs for docker://3f7455cbaf7de64c35ea40afef9f30e26a39b34f3dfe83b11b5a80a392267856
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
+Unable to retrieve container logs for docker://0ff3768bfcd4193081491d3f2405e36d1597da5c7bb22920afe8ffc60db25cc6
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-post-build[0m
+Unable to retrieve container logs for docker://2e465ca81930e26986210600db861243bf03a3591d7c7a8e85a7bb4f48f475cb
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-changelog[0m
+Unable to retrieve container logs for docker://32568d4636f0d2688782798d3a0f420252093df57cf737772c0ee7afdbb6d98e
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-helm-release[0m
+Unable to retrieve container logs for docker://f6e675e2353f0940add1f05ef782edb121068aa7a957962e8b57e579b3cb6bb4
+
+Showing logs for build [32mdigitalorigin-go-demo-6-master-tdjt9-1[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-jx-promote[0m
+Unable to retrieve container logs for docker://8a5afdda894ab42a8783da2ce1de62e7fcc1878207fb22e4dd3f9c879372a11a
